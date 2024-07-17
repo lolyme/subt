@@ -1,10 +1,31 @@
-# Deploy a Python (Flask) web app to Azure App Service - Sample Application
+# Angular on Firebase App Hosting
 
-This is the sample Flask application for the Azure Quickstart [Deploy a Python (Django or Flask) web app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-python). For instructions on how to create the Azure resources and deploy the application to Azure, refer to the Quickstart article.
+This is an example [Angular](https://angular.dev/) project to demonstrate SSG,
+SSR, and deferrable views on [Firebase App Hosting](https://firebase.google.com/docs/app-hosting).
 
-Sample applications are available for the other frameworks here:
+## Getting Started
 
-* Django [https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-django-webapp-quickstart)
-* FastAPI [https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart](https://github.com/Azure-Samples/msdocs-python-fastapi-webapp-quickstart)
+Run the development server:
 
-If you need an Azure account, you can [create one for free](https://azure.microsoft.com/en-us/free/).
+```bash
+npm run start
+```
+
+Open [http://localhost:4200](http://localhost:4200) with your browser to see the result.
+
+## Deploy to Firebase App Hosting
+
+### 1. Get your project set up on GitHub
+
+[Create a new GitHub repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository)
+and push the newly-initialized sample code to it:
+
+<pre>
+git remote add origin https://github.com/<b>$YOUR_NEW_REPOSITORY</b>.git
+git branch -M main
+git push -u origin main
+</pre>
+
+### 2. Set up Firebase App Hosting
+
+Continue to [Get started with Firebase App Hosting](https://firebase.google.com/docs/app-hosting/get-started#step-1:).
